@@ -1,6 +1,6 @@
 spring:
   application:
-    name: service-contract-config-service
+    name: kafka-producer-service
   kafka:
      producer:
         bootstrap-servers: localhost:29092
