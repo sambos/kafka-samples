@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: service-contract-config-service
+  kafka:
+     producer:
+        bootstrap-servers: localhost:29092
+        key-serializer: org.apache.kafka.common.serialization.StringSerializer
+        value-serializer: org.apache.kafka.common.serialization.StringSerializer
+        acks: all
+
+logging:
+  level:
+    root: INFO
+server:
+  port: 8021
+kafka.topic.name: sample.producer.topic
