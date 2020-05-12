@@ -1,2 +1,2 @@
-# onepdl-service-contract-config-service
+# kafka producer example
 
