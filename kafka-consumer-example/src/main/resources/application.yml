@@ -1,13 +1,17 @@
 spring:
   application:
     name: kafka-consumer-service
-  data:
-    mongodb:
-      host: localhost
-      port: 27017
-      database: onepdl
+  kafka:
+    consumer:
+      bootstrap-servers: localhost:29092
+      group-id: consumer-1
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
 logging:
   level:
     root: INFO
 server:
   port: 8022
+  
+kafka.topic.name: sample.producer.topic
