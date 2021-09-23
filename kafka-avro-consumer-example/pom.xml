@@ -8,7 +8,7 @@
 		<version>2.1.2.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.boeing.onepdl.service.contract</groupId>
+	<groupId>com.rsol.sample.service.contract</groupId>
 	<artifactId>kafka-avro-consumer-service</artifactId>
 	<version>1.0</version>
 	<name>kafka-avro-consumer-service</name>
